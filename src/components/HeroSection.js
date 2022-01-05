@@ -6,19 +6,12 @@ import "./HeroSection.css";
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src="/videos/video-1.mp4" autoPlay loop muted />
-            <h1 style={{ color: "white", paddingTop: "70px", fontSize: "80px" }}>I'M SUZ</h1>
-            <p style={{ color: "white" }}>I like to build things...</p>
-            <br></br>
+            <video src="/videos/video-3.mp4" autoPlay loop muted />
+            <h1 style={{ paddingTop: "100px", color: "white" }}>I'M SUZ</h1>
+            <p style={{ paddingBottom: "30px", color: "white" }}>I like to learn....</p>
 
             <div className="hero-btns">
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-                    CHECK OUT MY WORK
-                </Button>
-                <br></br><br></br>
-                {/* <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
-                    SEE WHAT I AM ABOUT
-                </Button> */}
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>CONTACT ME</Button>
             </div>
         </div>
     )
