@@ -11,7 +11,7 @@ function HeroSection() {
             <p style={{ paddingBottom: "30px", color: "white" }}>I like to learn....</p>
 
             <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>CONTACT ME</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>HOW TO CONTACT ME</Button>
             </div>
         </div>
     )
