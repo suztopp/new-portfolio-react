@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
 import Tech from './components/pages/Tech';
-import Contact from './components/pages/Contact';
+import ContactTwo from './components/pages/ContactTwo';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -16,9 +17,8 @@ function App() {
           <Route path="/" exact component={Home}/>
           <Route path="/about-me" exact component={AboutMe}/>
           <Route path="/tech" exact component={Tech}/>
-          <Route path="/contact" exact component={Contact}/>
+          <Route path="/contact-me" exact component={ContactTwo}/>
         </Switch>
-        {/* <h1>APP PAGE</h1> */}
       </Router>
 
     </>
