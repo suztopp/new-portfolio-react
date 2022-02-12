@@ -16,7 +16,7 @@ function AboutMe () {
 
                 <Container>
                     <Row>
-                        <Col>
+                        <Col className="about-me-column">
                             {/* <h3>ABOUT ME PAGE</h3> */}
                             <h5>G'day!</h5>
                             {/* <p>I am a new developer finding my way through the beginning stages of my career.</p>
@@ -36,7 +36,7 @@ function AboutMe () {
 
                 <Container>
                     <Row>
-                        <img src={SuzPic} alt="suz pic" style={{ width: '40vh', padding: "20px" }}></img>
+                        <img src={SuzPic} alt="suz pic" style={{ width: '30vh', padding: "20px" }}></img>
                     </Row>
                 </Container>
 
